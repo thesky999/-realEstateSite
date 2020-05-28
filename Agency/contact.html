@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <header class="site-header-init">
+        <div class="content-header">
+            <div class="bar">
+                <img src="img/logo.svg" alt="Agency logo">
+
+                <nav class="menu">
+                    <a href="about.html">About Us</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        
+
+            <h1>We sell Luxury Houses and Penthouses</h1>
+        </div>
+    </header>
+
+    <h1>Contact</h1>
+    <img src="img/destacada.jpg" alt="just a picture">
+
+    <main class="main-contact">
+        <form action="#">
+            <fieldset>
+                <label for="name">Name: </label>
+                <input type="text" name="userName" id="name">
+
+                <label for="email">Email: </label>
+                <input type="text" id="email">
+
+                <label for="phone">Phone number: </label>
+                <input type="tel" name="phone" id="email">
+
+                <label for="message">Message: </label>
+                <textarea type="message" id="msg" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Product Information</legend>
+                <label for="type">Type</label>
+                <select name="type" id="type">
+                    <option value="" disable selected> --- Select an option ---</option>
+                    <option value="buy">Buy</option>
+                    <option value="sell">Sell</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="phone">Phone</label>
+                <input type="radio" name="phone" id="radio-phone">
+
+                <label for="email">Email</label>
+                <input type="radio" name="email" id="radio-email">
+
+                <p>If you want to be contacted by phone, please select a date and hour</p>
+
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+
+                <label for="hour">Hour:</label>
+                <input type="time" name="hour" id="hour">
+
+            </fieldset>   
+                
+                <div class="btn-form">
+                <input class="btn btn-green" type="submit" value="Send">
+                </div>
+            
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+
+        <p>All rights reserved 2020 &copy; Trevor Dotzler</p>
+    </footer>
+
+</body>
+</html>
